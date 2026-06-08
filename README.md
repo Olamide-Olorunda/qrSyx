@@ -11,7 +11,9 @@ A simple QR code generator built with Python and Tkinter.
 Clone the repo and install the dependencies:
 
 git clone https://github.com/Olamide-Olorunda/qrSyx.git
+
 cd qrSyx
+
 pip install pyqrcode pypng Pillow
 
 ## Usage
