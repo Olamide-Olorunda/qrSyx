@@ -1,6 +1,6 @@
 # qrSyx
 
-A simple QR code generator built with Python and Tkinter.
+QR code generator built with python and tkinter. needed one.
 
 ## Requirements
 
