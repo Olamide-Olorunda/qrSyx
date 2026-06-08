@@ -14,7 +14,7 @@ git clone https://github.com/Olamide-Olorunda/qrSyx.git
 
 cd qrSyx
 
-pip install pyqrcode pypng Pillow
+pip install pyqrcode pypng pillow
 
 ## Usage
 
