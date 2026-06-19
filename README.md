@@ -20,7 +20,7 @@ pip install pyqrcode pypng pillow
 
 Run the script:
 
-python qrSyx.py
+python qrSyx.py or python3 qrSyx.py
 
 Enter any text or URL in the input field, click "Create QR Code",
 choose where to save the PNG, and your QR code will be generated and displayed.
