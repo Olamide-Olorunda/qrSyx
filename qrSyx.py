@@ -51,4 +51,3 @@ new_label = Label(root, text="")
 new_label.pack(pady=20)
 
 root.mainloop()
-

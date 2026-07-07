@@ -8,7 +8,7 @@ QR code generator built with python and tkinter. needed one.
 
 ## Installation
 
-Clone the repo and install the dependencies:
+Clone the repository and install the dependencies:
 
 git clone https://github.com/Olamide-Olorunda/qrSyx.git
 
@@ -22,5 +22,4 @@ Run the script:
 
 python qrSyx.py or python3 qrSyx.py
 
-Enter any text or URL in the input field, click "Create QR Code",
-choose where to save the PNG, and your QR code will be generated and displayed.
+Enter any text or URL in the input field, click "Create QR Code", choose where to save the PNG, and your QR code will be generated and displayed.
