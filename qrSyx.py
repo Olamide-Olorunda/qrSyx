@@ -1,5 +1,4 @@
 from tkinter import *
-import png
 import pyqrcode
 from tkinter import filedialog
 from PIL import Image, ImageTk
