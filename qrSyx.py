@@ -14,12 +14,12 @@ def create_code():
             )
     if input_path:
         if input_path.endswith(".png"):
-            get_code = pyqrcode.create(my_netry.get())
+            get_code = pyqrcode.create(my_entry.get())
             
             get_code.png(input_path, scale=5)
         else:
             input_path = f"{input_path}.png"
-            get_code = pyqrcode.create(my_netry.get())
+            get_code = pyqrcode.create(my_entry.get())
 
             get_code.png(input_path, scale=5)
 
@@ -28,9 +28,9 @@ def create_code():
 
         new_label.config(image=get_image)
 
-        my_netry.delete(0, END)                                      
+        my_entry.delete(0, END)                                      
 
-        my_netry. insert(0, "Finished!")
+        my_entry.insert(0, "Finished!")
 
 def clear_created():
     my_netry.delete(0, END)
