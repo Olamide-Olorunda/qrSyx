@@ -1,0 +1,2 @@
+pyqrcode==1.4.2
+Pillow==10.0.0
