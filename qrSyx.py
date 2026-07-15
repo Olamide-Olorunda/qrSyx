@@ -5,7 +5,6 @@ from PIL import Image, ImageTk
 
 root = Tk()
 root.title("QRx")
-root.iconbitmap(" ၏  ")
 root.geometry("500x550")
 
 def create_code():
