@@ -36,8 +36,8 @@ def clear_created():
     my_entry.delete(0, END)
     new_label.config(image="")
 
-my_netry = Entry(root, font=("Helvetica", 16))
-my_netry.pack(pady=20)
+my_entry = Entry(root, font=("Helvetica", 16))
+my_entry.pack(pady=20)
 
 netry_button = Button(root, text="Create QR Code", command=create_code)
 netry_button.pack(pady=20)
