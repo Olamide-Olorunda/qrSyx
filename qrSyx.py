@@ -33,7 +33,7 @@ def create_code():
         my_entry.insert(0, "Finished!")
 
 def clear_created():
-    my_netry.delete(0, END)
+    my_entry.delete(0, END)
     new_label.config(image="")
 
 my_netry = Entry(root, font=("Helvetica", 16))
